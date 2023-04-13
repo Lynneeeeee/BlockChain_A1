@@ -1,0 +1,16 @@
+This is a simple block chain simulation. These are the file you need: 
+
+ - proofOfWork.js:
+    A function about proof of work implemented by sha256 encryption.
+
+ - blockChainDemo.js:
+    All needed classes and functions in block chain, including Transaction, Block and Chain classes.
+
+ - yingCoin.js:
+    Main system, edit your requirements and press 'run' button here.
+
+
+If you hava error about elliptic or crypto-js(sha256) library, input this in your terminal: 
+>> npm i ellipic
+or 
+>> npm install crypto-js
